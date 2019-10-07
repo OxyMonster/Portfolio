@@ -37,6 +37,14 @@ $(document).ready(function() {
 		showCursor: false
 	});
 
+	var typedNode = new Typed(".typedAngular", {
+		strings: ["Learning..."],
+		typeSpeed: 70,
+		loop: true,
+		startDelay: 1000,
+		showCursor: false
+	});
+
 	$('.owl-carousel').owlCarousel({
 	    loop:true,
 	    items: 4,

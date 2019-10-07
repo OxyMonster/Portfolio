@@ -80,6 +80,11 @@ body {
 	width: 60%;
 }
 
+.skill-img{
+	height: 150px;
+	width: 100%;
+}
+
 .chart {
 	position: relative;
     width: 152px;
